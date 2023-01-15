@@ -26,7 +26,7 @@ function NavBar() {
         <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
+                    <img src={logo} style={{ width: "50px", height: "50px" }} alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"

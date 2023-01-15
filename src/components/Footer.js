@@ -4,18 +4,11 @@ import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-    let date = new Date();
-    let year = date.getFullYear();
     return (
         <Container fluid className="footer">
             <Row>
-                <Col md="4" className="footer-copywright">
+                <Col className="footer-body" style={{ display: "flex", flexDirection: "row", width: "100%", justifyContent: "space-between" }}>
                     <h3>Designed and Developed by Md. Mehedi Hassan</h3>
-                </Col>
-                <Col md="4" className="footer-copywright">
-                    <h3>Copyright © {2022} MH</h3>
-                </Col>
-                <Col md="4" className="footer-body">
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a href="https://github.com/hassan-mehedi" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
