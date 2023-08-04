@@ -1,40 +1,79 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit, DiPostgresql, DiDocker, DiNpm, DiTerminal } from "react-icons/di";
-import { SiAmazonaws, SiGnubash } from "react-icons/si";
+import {
+    SiReact,
+    SiNodedotjs,
+    SiExpress,
+    SiElectron,
+    SiTypescript,
+    SiMongodb,
+    SiPostgresql,
+    SiPrisma,
+    SiDjango,
+    SiFlask,
+    SiJavascript,
+    SiPython,
+    SiGnubash,
+    SiCplusplus,
+} from "react-icons/si";
 
 function Techstack() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact />
+                <SiReact />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiPostgresql />
+                <SiElectron />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs />
+                <SiNodedotjs />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiMongodb />
+                <SiExpress />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiNpm />
+                <SiMongodb />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiGit />
+                <SiPostgresql />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiAmazonaws />
+                <SiPrisma />
             </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiDjango />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiFlask />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiJavascript />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiTypescript />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiPython />
+            </Col>
+
             <Col xs={4} md={2} className="tech-icons">
                 <SiGnubash />
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiPython />
+                <SiCplusplus />
             </Col>
         </Row>
     );

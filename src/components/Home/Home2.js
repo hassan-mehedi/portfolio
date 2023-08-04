@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -15,29 +15,93 @@ function Home2() {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
-                            <br />
-                            <br />I am fluent in classics like
+                            I'm a
                             <i>
-                                <b className="purple"> Javascript and Python. </b>
+                                <b className="purple"> Junior Software Engineer </b>
                             </i>
-                            <br />
-                            <br />
-                            My field of Interest's are building new &nbsp;
+                            with 2+ years of experience specializing in the
                             <i>
-                                <b className="purple">Web Technologies and Products </b> and also in areas related to{" "}
-                                <b className="purple">Devops.</b>
+                                <b className="purple"> MERN </b>
                             </i>
-                            <br />
-                            <br />
-                            Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
+                            and
                             <i>
-                                <b className="purple"> Modern Javascript Library and Frameworks</b>
+                                <b className="purple"> PERN </b>
                             </i>
-                            &nbsp; like
+                            stacks. I have a strong background in
                             <i>
-                                <b className="purple"> React.js</b>
+                                <b className="purple"> DevOps </b>
                             </i>
+                            , handling development with
+                            <i>
+                                <b className="purple"> Docker </b>
+                            </i>
+                            and implementing automatic deployments using
+                            <i>
+                                <b className="purple"> GitHub Actions </b>
+                            </i>
+                            .
+                            <br />
+                            <br /> I also have experience with
+                            <i>
+                                <b className="purple"> Microservices </b>
+                            </i>
+                            . My cloud management experience includes working with
+                            <i>
+                                <b className="purple"> AWS services </b>
+                            </i>
+                            such as
+                            <i>
+                                <b className="purple"> EC2 </b>
+                            </i>
+                            ,
+                            <i>
+                                <b className="purple"> RDS </b>
+                            </i>
+                            ,
+                            <i>
+                                <b className="purple"> ECR </b>
+                            </i>
+                            ,
+                            <i>
+                                <b className="purple"> ECS </b>
+                            </i>
+                            , and
+                            <i>
+                                <b className="purple"> App Runner </b>
+                            </i>
+                            .
+                            <br />
+                            <br /> In addition to my frontend expertise, I have developed backend services using
+                            <i>
+                                <b className="purple"> Flask </b>
+                            </i>
+                            and
+                            <i>
+                                <b className="purple"> Django </b>
+                            </i>
+                            . I am passionate about building
+                            <i>
+                                <b className="purple"> scalable </b>
+                            </i>
+                            and
+                            <i>
+                                <b className="purple"> efficient </b>
+                            </i>
+                            software solutions, and I thrive in dynamic and collaborative environments. <br />
+                            <br />
+                            Let's
+                            <i>
+                                <b className="purple"> connect </b>
+                            </i>
+                            and discuss how we can leverage my skills and experience to
+                            <i>
+                                <b className="purple"> drive </b>
+                            </i>
+                            impactful projects
+                            <i>
+                                <b className="purple"> forward </b>
+                            </i>
+                            !
                         </p>
                     </Col>
                     <Col md={4} className="myAvtar">

@@ -10,7 +10,11 @@ function ProjectCards(props) {
             <Card.Img variant="top" src={props.imgPath} alt="card-img" width="200px" height="300px" style={{ objectFit: "cover" }} />
             <Card.Body style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Text style={{ textAlign: "center" }}>{props.description}</Card.Text>
+
+                <Card.Subtitle style={{ margin: "10px 0" }}>{props.stack}</Card.Subtitle>
+
+                <Card.Text style={{ textAlign: "justify" }}>{props.description}</Card.Text>
+
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "10px" }}>
                     <Button variant="primary" href={props.ghLink} target="_blank">
                         <BsGithub /> &nbsp;
