@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col className="footer-body" style={{ display: "flex", flexDirection: "row", width: "100%", justifyContent: "space-between" }}>
-                    <h3>Designed and Developed by Md. Mehedi Hassan</h3>
+                    <h3>Welcome</h3>
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a href="https://github.com/hassan-mehedi" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
