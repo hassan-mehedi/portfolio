@@ -17,9 +17,13 @@ function Home2() {
                         <p className="home-about-body">
                             I'm a
                             <i>
-                                <b className="purple"> Junior Software Engineer </b>
+                                <b className="purple"> Software Engineer </b>
                             </i>
                             with 2+ years of experience specializing in the
+                            <i>
+                                <b className="purple"> Full-Stack </b>
+                            </i>
+                            development. I have mainly worked with
                             <i>
                                 <b className="purple"> MERN </b>
                             </i>

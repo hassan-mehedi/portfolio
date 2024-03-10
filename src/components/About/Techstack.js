@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
     SiReact,
+    SiNextdotjs,
     SiNodedotjs,
     SiExpress,
     SiElectron,
@@ -22,6 +23,10 @@ function Techstack() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
                 <SiReact />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiNextdotjs />
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">

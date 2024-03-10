@@ -1,6 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiDocker, SiNpm, SiVite, SiVisualstudiocode, SiAmazonaws, SiPostman, SiLinux, SiCypress, SiJest, SiVirtualbox } from "react-icons/si";
+import {
+    SiDocker,
+    SiNpm,
+    SiVite,
+    SiVisualstudiocode,
+    SiAmazonaws,
+    SiPostman,
+    SiLinux,
+    SiCypress,
+    SiJest,
+    SiVirtualbox,
+    SiPrometheus,
+    SiGrafana,
+    SiElasticstack,
+    SiPm2,
+} from "react-icons/si";
 
 function Toolstack() {
     return (
@@ -43,6 +58,22 @@ function Toolstack() {
 
             <Col xs={4} md={2} className="tech-icons">
                 <SiVirtualbox />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiPm2 />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiPrometheus />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiGrafana />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiElasticstack />
             </Col>
         </Row>
     );
